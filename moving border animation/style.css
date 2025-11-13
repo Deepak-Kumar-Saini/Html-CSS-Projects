@@ -18,7 +18,7 @@ body {
     width: 50vmin;
     background-color: #666;
     border: 5px solid #EEE;
-    background-image: url("hero.png");
+    background-image: url("https://avatars.githubusercontent.com/u/202056893?v=4");
     background-size: cover;
     border-radius: 30% 70% 58% 42% / 30% 42% 58% 70%;
     animation: borderChange 10s linear infinite alternate;
