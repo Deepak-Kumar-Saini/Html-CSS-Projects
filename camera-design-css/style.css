@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.camera {
+    height: 80vmin;
+    width: 80vmin;
+    background: #00A6FF;
+    border-radius: 10vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.camera-body {
+    height: 40vmin;
+    width: 60vmin;
+    background-color: #FFF;
+    border-radius: 3vmin;
+    border: 1vmin solid #FFF;
+}
+
+.camera-top {
+    height: 13vmin;
+    width: 60vmin;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.camera-bottom {
+    height: 27vmin;
+    width: 60vmin;
+    background-color: #00A6FF;
+    border-radius: 0 0 3vmin 3vmin;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    height: 3vmin;
+    width: 10vmin;
+    background-color: #FFF;
+    position: absolute;
+    top: 0;
+    left: 3vmin;
+    transform: translateY(-130%);
+    border-radius: 1vmin 1vmin 0 0;
+    border-bottom: 0.5vmin solid #00A6FF;
+}
+
+.ring {
+    height: 3vmin;
+    width: 3vmin;
+    background-color: #00A6FF;
+    border-radius: 50%;
+    margin-left: 5vmin;
+}
+
+.reck {
+    height: 3vmin;
+    width: 10vmin;
+    background-color: #00A6FF;
+}
+
+.camera-ring {
+    height: 30vmin;
+    width: 30vmin;
+    background-color: #FFF;
+    border-radius: 50%;
+    border: 1.5vmin solid #00A6FF;
+    transform: translateY(-20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.camera-inner-ring {
+    height: 22vmin;
+    width: 22vmin;
+    background-color: #00A6FF;
+    border-radius: 50%;
+    position: absolute;
+}
