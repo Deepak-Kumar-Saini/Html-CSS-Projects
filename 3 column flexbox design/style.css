@@ -3,3 +3,30 @@
     margin: 0;
 }
 
+.card-container{
+    display: flex;
+    padding: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    margin: 1em;
+    display: flex;
+    max-width: 16em;
+    flex-direction: column;
+    gap: 1em;
+
+    border: 1px solid black;
+    padding: 1em;
+}
+
+.card-1{
+    background-color: #ff8700;
+}
+.card-2{
+    background-color: #086c9e;
+}
+.card-3{
+    background-color: #093447;
+}
